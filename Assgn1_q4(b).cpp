@@ -20,7 +20,7 @@ int main() {
         for (int j = 0; j < p; j++)
             cin >> B[i][j];
 
-    // Multiplication
+    
     for (int i = 0; i < m; i++) {
         for (int j = 0; j < p; j++) {
             C[i][j] = 0;

@@ -9,7 +9,7 @@ void push(){
     int x;
     cout<<"Enter data "<<endl;
     cin >> x;
-    if(top == -1) {
+    if(top == MAX -1) {
         cout<<"overflow" << endl;
     } 
     else{
@@ -70,7 +70,7 @@ int main() {
         cin >> choice;
 
         switch (choice) {
-            case 1:cout << "Enter value to push: ";
+            case 1:
                 
                 push();
                 break;
